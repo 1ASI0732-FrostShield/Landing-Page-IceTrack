@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ctaButton.addEventListener('click', (e) => {
         e.preventDefault();
         console.log('Redireccionando a la página de registro de la aplicación...');
-        window.location.href = "https://ice-track-frontend.vercel.app";
+        window.location.href = "https://frontend-ice-track.vercel.app/auth/login";
     });
 
     // Lógica del filtro de beneficios
